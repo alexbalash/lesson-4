@@ -1,0 +1,274 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.wrap {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    color: #212121;
+}
+
+hr {
+    width: 64px;
+    height: 2px;
+    margin: 30px auto;
+    background: #FF8B38;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    border: 2px solid #FF8B38;
+    border-radius: 50%;
+}
+
+/*Navigation*/
+
+.nav {
+    background-color:#000000;
+    height: 71px;
+}
+
+.nav__wrap {
+    width: 77%;
+    padding-top:21px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.nav__logo {
+    width: 79px;
+    height: 27px;;
+}
+
+.nav__list {
+    float:right;
+    width: 60%; 
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav__item {
+    display: inline-block;
+    padding-left:48px;
+}
+
+.nav__link {
+  display: block; 
+  text-decoration: none;
+  color:#FFFFFF;
+  font-weight: 600;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+/*Header*/
+
+.header {
+    height: 712px;
+    background: url(../img/background/background-top.png) no-repeat center center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/background/background-top.png);
+}
+
+.header-container {
+    width:79%;
+    margin:0 auto;
+}
+
+.text-container {
+    width:65%
+}
+
+.header__logo{
+    display: inline-block;
+    padding-top: 140px;
+    padding-bottom: 33px;
+}
+
+.header__text {
+    display: inline-block;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF
+}
+
+.header__hr {
+    display: inline-block;
+    width: 74px;
+    height: 2px;
+    margin: 30px auto;
+    background: #FFFFFF;
+}
+
+.header__subtext{
+    display: inline-block;
+    padding-bottom:33px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    color:#FFFFFF;
+    opacity: 0.8;
+    
+}
+
+.header__btn {
+    display: inline-block;
+    width:135px;
+    height:42px;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color:#FFFFFF;
+    background-color:transparent;
+    border:2px solid #FFFFFF;
+}
+
+/*Header-card*/
+
+/*Brand bar*/
+.brand-bar {
+    width:77%;
+    height: 106px;
+    padding-top:23px;
+    margin:0 auto;
+}
+
+.brand-bar__header {
+    font-size:20px;
+    font-weight: 700;
+    fill: #333333;
+}
+
+.brand-bar__text{
+    display: block;
+    width: 370px;
+    font-size: 14px;
+    fill: #86878B;
+}
+
+/*Tabs*/
+.tabs {
+    background-color: #F5F5F5;
+}
+
+.tabs__container {
+    width:77%;
+    height: 596px;
+    margin:0 auto;
+}
+
+.tabs-item__container {
+    width: 112px;
+    height: 336px;
+    margin:0;
+    padding-top: 148px;
+
+}
+
+.tabs__item { 
+    width: 112px;
+    height: 112px;
+    margin: 2px auto;
+    line-height: 112px;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color:#FFFFFF;
+    background-color: rgb(41, 55, 48);
+}
+
+.tabs__item--colored {
+    background-color: #FF8B38;
+}
+
+.tabs-header__container {
+    margin-top:-188px;
+    margin-left:195px;
+}
+
+.tabs__header {
+    padding-bottom:52px;
+    font-size:20px;
+    font-weight: 700; 
+}
+
+.tabs__text {
+    display: block;
+    width:476px;
+    color:#86878B;
+    font-size:14px;
+}
+
+.tabs__text--upper {
+    padding-bottom:27px
+}
+
+.tabs__text--bottom {
+    padding-bottom: 51px;
+}
+
+.tabs__button {
+    width: 121px;
+    height: 46px;
+    background-color: #FF8B38;
+    font-weight: 600;
+    font-size: 15px;
+    color:#FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #FF8B38;
+    border-radius: 5%;
+
+}
+
+/*Features*/
+
+.features {
+    display: inline-block;
+    width:77%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.icon-lightbulb {
+    background: url(../img/icons/lightbulb.png) no-repeat center center;
+}
+
+.icon-keyboard {
+    background: url(../img/icons/keyboard.png) no-repeat center center;
+}
+
+.icon-lightning {
+    background: url(../img/icons/lightning.png) no-repeat center center;
+}
+
+.features__text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+}
+
+
+
+
+
+
